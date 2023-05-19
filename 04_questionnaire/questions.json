@@ -1,0 +1,58 @@
+{
+  "guestions": [{
+      "id": "1",
+      "question": "What is your marital status?",
+      "answers": [{
+          "answer": "Single",
+          "next": "2"
+        },
+        {
+          "answer": "Married",
+          "next": "3"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Are you planning on getting married next year?",
+      "answers": [{
+          "answer": "Yes",
+          "next": "0"
+        },
+        {
+          "answer": "No",
+          "next": "0"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "How long have you been married?",
+      "answers": [{
+          "answer": "Less than a year",
+          "next": "0"
+        },
+        {
+          "answer": "Moere than a year",
+          "next": "4"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Have you celebrated your one year anniversary?",
+      "answers": [{
+          "answer": "Yes",
+          "next": "0"
+        },
+        {
+          "answer": "No",
+          "next": "0"
+        }
+      ]
+    }
+  ]
+}
+
+
+ 
