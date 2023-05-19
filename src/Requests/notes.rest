@@ -1,0 +1,52 @@
+GET http://localhost:3000/notes
+
+###
+GET http://localhost:3000/notes/stats
+
+###
+GET http://localhost:3000/notes/1
+
+###
+DELETE http://localhost:3000/notes/2
+
+###
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+  "name": "test post",
+  "category": "Task",
+  "content": "test post",
+  "isArchive": false
+}
+
+###
+
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+  "name": "test post",
+  "category": "Task",
+  "content": "test post"
+}
+
+###
+PATCH  http://localhost:3000/notes/3
+Content-Type: application/json
+
+{
+  "name": "PATCH",
+  "category": "PATCH",
+  "content": "PATCH"
+}
+
+###
+PATCH  http://localhost:3000/notes/3
+Content-Type: application/json
+
+{
+  "name": "PATCH",
+  "category": "Task",
+  "content": "PATCH"
+}
