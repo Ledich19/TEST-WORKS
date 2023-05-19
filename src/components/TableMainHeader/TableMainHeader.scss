@@ -1,0 +1,46 @@
+.table-head {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgb(125, 125, 125);
+  &__icon{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    background: rgba(236, 234, 234, 0);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+  }
+  &__name{
+    width: 13%;
+  }
+  &__created{
+    width: 12%;
+  }
+  &__category{
+    width: 15%;
+  }
+  &__content {
+    flex: 1 1 auto;
+    width: 25%;
+  }
+  &__dates {
+    width: 15%;
+  }
+  &__buttons {
+    width: 85px;
+    display: flex;
+    justify-content: end;
+    flex-wrap: nowrap;
+    & button{
+      font-size: 1rem;
+      padding: 3px;
+      margin-left: 3px;
+      border-radius: 3px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.row {
+  padding: 5px;
+  text-align-last: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 100%;
+  &>div:not(:last-child) {
+    
+  }
+  &>div {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+
+.table-main {
+  &__row{
+    background-color: rgb(205, 205, 220);
+  }
+  &__icon {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    background: rgb(236, 234, 234);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+  }
+  &__buttons {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  &__name {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 13%;
+  }
+  &__created{
+    width: 12%;
+  }
+  &__category{
+    width: 15%;
+  }
+  &__content {
+    flex: 1 1 auto;
+    width: 25%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__dates {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 15%;
+  }
+}
+.table-main__arh,.table-main__del,.table-main__upd ,#table__arhAll,#table__delAll{
+  font-size: 1rem;
+  padding: 3px;
+  margin-left: 3px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }

@@ -1,0 +1,35 @@
+.form-wrapper {
+  top: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.751);
+  height: 100%;
+  width: 100%;
+}
+
+#note-form {
+  padding: 5px;
+  background: rgb(182, 182, 182);
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+#note-form-content{
+  resize: none;
+  height: 50px;
+}
+#close-form, #save-note, #update-note , #create-note ,#toggle-archive{
+  background: rgb(126, 124, 124);
+  border-radius: 3px;
+  padding: 3px;
+  margin-top: 5px;
+}
+#create-note {
+  margin-left: 10px;
+}
+
+.table-main__arh,.table-main__del,.table-main__upd ,#table__arhAll,#table__delAll{
+padding: 3px;
+margin-left: 3px;
+border-radius: 3px;
+}
